@@ -1,0 +1,29 @@
+streamlit
+fastapi
+uvicorn
+python-multipart
+groq
+# The code uses langchain.chains / langchain.schema, which were removed in LangChain 1.0
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-classic
+langchain-chroma
+langchain-text-splitters
+# langchain-huggingface>=0.1,<1.0
+# sentence-transformers
+chromadb
+passlib[bcrypt]
+bcrypt<4.1
+pandas
+python-dotenv
+requests
+cohere
+langchain-cohere
+duckdb
+tabulate
+pydantic
+pytest
+playwright
+pytest-playwright

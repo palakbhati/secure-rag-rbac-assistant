@@ -1,0 +1,11 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+*.db
+*.duckdb
+*.duckdb.bak
+static/uploads/
+static/chroma_db/
+videos/
+report.html
