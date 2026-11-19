@@ -14,7 +14,8 @@ services:
         sync: false
       - key: ADMIN_PASSWORD
         sync: false
-
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-120b
   - type: web
     name: rbac-ui
     runtime: python
