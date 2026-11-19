@@ -1,6 +1,12 @@
+import os
+
+for _key in ("GROQ_API_KEY", "COHERE_API_KEY", "ADMIN_PASSWORD"):
+    if _key in os.environ:
+        os.environ[_key] = os.environ[_key].strip()
+
 import sqlite3
 import pandas as pd
-import os
+
 from pathlib import Path
 from pydantic import BaseModel
 import duckdb
